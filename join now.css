@@ -1,0 +1,178 @@
+.logo
+{width:75px;
+ padding:20px;
+ margin-left:auto;
+ margin-right:auto;
+ flex-basis:50%;
+}
+.container
+{display:inline-flex;
+  align-items=center
+  justify-content: right;
+  margin-top:50px;
+  
+
+}
+a{text-decoration: none;}
+.logo1
+{background-color: seashell;
+ text-decoration-style: dashed;
+ font-family:serif;
+ 
+}
+
+
+a:hover
+{background:black;
+ color:white;
+}
+.navigation
+{display:block;
+ }
+body
+{background-image:
+url("bg1.jpg");
+
+}
+nav
+{width:100%;
+ position:absolute;
+ top:0px;
+}
+.topnav
+{background-color: blue;
+ overflow:hidden;
+}
+.topnav a
+{float:left;
+color: #f2f2f2;
+text-align: centre;
+padding: 14px 16px;
+font-size:17px;
+}
+.head
+{text-align: center;
+font-size:50px;
+font-family: 'Times New Roman', Times, serif;
+color:yellow;
+background-color: green;
+width:50%;
+margin:0 auto;
+border-radius: 30px;;
+}
+@media screen and (max-width:800px) 
+{
+  .head{
+    width:70%;
+  }
+}
+form
+{margin:20px auto;
+width:320px;
+color:black;
+}
+
+input{padding:15px;
+font-size:inherit;
+border-radius: 10px;}
+
+input[type="text"]{
+  display:block;
+  margin-bottom:25px;
+  width:100%;
+  border: 2px solid steelblue;
+  background: rgb(238, 238, 192);
+
+}
+
+input[type="email"]{
+  display:block;
+  margin-bottom:25px;
+  width:100%;
+  border: 2px solid steelblue;
+  background: rgb(238, 238, 192);
+
+}
+input[type="password"]{
+  display:block;
+  margin-bottom:25px;
+  width:100%;
+  border: 2px solid steelblue;
+  background: rgb(238, 238, 192);
+
+}
+input[type="radio"]{
+  margin:0 8px 25px 18px;
+  
+
+}
+input[type="radio"]:first-child{
+  margin-left=0;
+}
+
+.sub
+{width:100%;
+height:7%;
+border top:70%;
+background:steelblue;
+color:black;
+border-radius:20px;
+}
+
+input:focus{background:white;}
+
+input[type="radio"]:checked+label{
+  font-weight: bold;
+  font-size=18px;
+}
+.gender
+{
+
+background-color: rgb(155, 88, 7);
+margin-bottom:5%;
+text-align: center;
+border-radius: 10px;
+padding:10px;}
+
+
+.student
+{margin:20px auto;
+  margin-left:2%;
+width:30%;
+height:11%;
+background-color:GREY;
+border-radius: 7%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: center;
+
+}
+
+.ex-student
+{margin:20px auto;
+  margin-left:2%;
+width:30%;
+height:11%;
+background-color: rgb(68, 230, 149);
+border-radius: 7%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: center;
+
+}
+
+.faculty
+{
+  margin:20px auto;
+  margin-left:2%;
+width:30%;
+height:11%;
+background-color: rgba(255, 0, 157, 0.849);
+border-radius: 7%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: center;
+
+}
+
+button:hover{background-color:rgb(247, 68, 68);}
